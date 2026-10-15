@@ -1,4 +1,4 @@
 //your JS code here. If required.
-const domLoad(){
-	return "DOM load success"
-}
+document.addEventListener("DOMContentLoaded", function () {
+    document.body.innerText = "DOM load success";
+});
